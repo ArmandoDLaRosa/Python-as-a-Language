@@ -15,15 +15,15 @@
 1) Create python environment (its files should be good inside the project folder)
     ```
     sudo apt install python3-virtualenv
-    virtualenv scrapEnv
+    virtualenv pyEnv
     ```
 
 2) Activate python environment in the command line
     ``` 
-    source scrapEnv/bin/activate
+    source pyEnv/bin/activate
     ``` 
 
-3) Change in vscode the interpreter to the python inside scrapEnv/bin/python3.8 ```ctrl+shif+p > 'Python Interpreter'```
+3) Change in vscode the interpreter to the python inside pyEnv/bin/python3.8 ```ctrl+shif+p > 'Python Interpreter'```
    1) This way you can run the .py with the extension RUN button with the env activated.
    2) Otherwise, you'll have to run it like `python3 fileName.py` and the env activated.
 
